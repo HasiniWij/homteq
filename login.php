@@ -1,6 +1,6 @@
 <?php
 session_start();
-$pagename="Sign Up"; //Create and populate a variable called $pagename
+$pagename="Login"; //Create and populate a variable called $pagename
 echo "<link rel=stylesheet type=text/css href=mystylesheet.css>"; //Call in stylesheet
 echo "<title>".$pagename."</title>"; //display name of the page as window title
 echo "<body>";

@@ -76,12 +76,12 @@ if (isset($_SESSION['basket'])){
 	echo "<a href='clearbasket.php'>Clear Basket</a>";
 	echo "</br>";echo "</br>";
 	if(isset($_SESSION['userid'])) {
-		echo  "To finalise your Order: <a href='checkout.php'>Sign Up</a>";
+		echo  "To finalise your Order: <a href='checkout.php'>Checkout</a>";
 	}
 	else{
 		echo  "New hometeq customers: <a href='signup.php'>Sign Up</a>";
 		echo "</br>";echo "</br>";
-		echo "Returning hometeq customers: <a href='login.php'>Checkout</a>";		
+		echo "Returning hometeq customers: <a href='login.php'>Sign Up</a>";		
 	}
 	
 }
